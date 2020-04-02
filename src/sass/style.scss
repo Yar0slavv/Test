@@ -1,0 +1,21 @@
+@import 'base/variables';
+*{
+	font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container{
+    max-width: 1024px;
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;
+	.row{
+		display: flex;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.col{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@import 'blocks/header';
