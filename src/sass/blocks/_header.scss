@@ -6,6 +6,7 @@ header{
 }
 .menu {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     &__logo{
         display: flex;
@@ -16,13 +17,14 @@ header{
     }
     &__items{
         display: flex;
-        width: 364px;
+        width: 60%;
         height: 80px;
         background: rgb(126, 123, 123);
     }
     &__items2{
         display: flex;
-        width: 500px;
+        width: 40%;
+        margin-left: 15px;
         height: 80px;
         background: rgb(126, 123, 123);
         
