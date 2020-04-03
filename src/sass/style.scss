@@ -1,6 +1,16 @@
 @import 'base/variables';
 *{
-	font-family: 'Museo Sans Cyrl', sans-serif;
+	font-family: Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 .container{
     max-width: 1024px;
@@ -19,3 +29,5 @@
 }
 
 @import 'blocks/header';
+@import 'blocks/content';
+@import 'blocks/footer';
