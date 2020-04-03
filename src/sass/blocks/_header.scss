@@ -8,6 +8,9 @@ header{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    img{
+        border-radius: 50%
+    }
     &__logo{
         display: flex;
         overflow: hidden; 
@@ -19,14 +22,14 @@ header{
         display: flex;
         width: 60%;
         height: 80px;
-        background: rgb(126, 123, 123);
+        background: rgba(126, 123, 123, .6);
     }
     &__items2{
         display: flex;
         width: 40%;
         margin-left: 15px;
         height: 80px;
-        background: rgb(126, 123, 123);
+        background: rgba(126, 123, 123, .6);
         
     }
 }
