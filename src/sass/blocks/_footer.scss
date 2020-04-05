@@ -13,7 +13,7 @@
     margin-top: 14px;
     &_top, &_bottom{
         display: flex;
-        background: rgba(55, 130, 155, 0.6);
+        background: linear-gradient(45deg, rgba(137, 76, 119, 0.6), rgba(76, 103, 137, 0.6));
 
     }
     &_top{
@@ -41,7 +41,7 @@
     width: 50%;
     margin-right: 30px;
     justify-content: space-around;
-    background: rgba(55, 130, 155, 0.6);
+    background: linear-gradient(45deg, rgba(137, 76, 119, 0.6), rgba(76, 103, 137, 0.6));
     ul{
         list-style-type: none; 
         column-count: 2;
@@ -52,7 +52,7 @@
     display: flex;
     width: 50%;
     flex-direction: column;
-    background: rgba(55, 130, 155, 0.6);
+    background: linear-gradient(45deg, rgba(137, 76, 119, 0.6), rgba(76, 103, 137, 0.6));
     list-style-type: square;
     padding-left: 30px;
 }
